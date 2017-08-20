@@ -143,5 +143,4 @@ async function findSameHome(name) {
     }
 }
 
-findSameHome('陈云飞')
-
+insert();

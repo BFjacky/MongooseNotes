@@ -129,7 +129,7 @@ async function handleSameBirth(name) {
             resBirthmates[i].name,
             resBirthmates[i].birthday,
             resBirthmates[i].stuId,
-            resBirthmates[i].pswd,
+            //resBirthmates[i].pswd,
             resBirthmates[i].gender,
             resBirthmates[i].className,
             resBirthmates[i].originInfo['毕业中学'],
@@ -175,7 +175,7 @@ async function handleSameHome(name) {
     process.exit(0);
 }
 
-handleSameHome('陈云飞');
+handleSameHome('杜双');
 //匹配城市的正则表达式
 //
 function getCity(home) {
